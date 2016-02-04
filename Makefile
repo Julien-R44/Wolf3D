@@ -14,7 +14,7 @@ NAME= wolf3d
 LLIBFT= -L./libft/ -lft 
 CLIBFT= -I./libft/include/ 
 LIBX = ./minilibx/ 
-LFLAGS= $(LLIBFT) -L./minilibx/ -lmlx_Linux -lX11 -lm -lbsd
+LFLAGS= $(LLIBFT) -L./minilibx/ -lmlx_Linux -lX11 -lm -lbsd -lXext
 #FLAGS = -Ofast -I./includes/ -I/usr/X11R6/include -g \
 		-framework OpenGL -framework AppKit
 
